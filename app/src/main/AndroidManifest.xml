@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BodyMassIndexIntent">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".presentation.form.FormActivity"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
