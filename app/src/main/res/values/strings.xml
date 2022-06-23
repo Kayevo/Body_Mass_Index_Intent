@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Body Mass Index Intent</string>
+
+    <!-- Form activity -->
+    <string name="form_weight">Weight</string>height
+    <string name="form_height">Height</string>
+    <string name="form_generate_bmi">Generate BMI</string>
 </resources>
