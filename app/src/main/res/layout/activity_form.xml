@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/weight"
         style="@style/FormTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,6 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/height"
         style="@style/FormTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/weight"
         app:layout_constraintVertical_bias="0.161" />
 
     <TextView
@@ -53,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/generateBMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/form_generate_bmi"
