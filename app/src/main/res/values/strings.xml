@@ -5,4 +5,7 @@
     <string name="form_weight">Weight</string>height
     <string name="form_height">Height</string>
     <string name="form_generate_bmi">Generate BMI</string>
+
+    <!-- BMI activity -->
+    <string name="bmi_result_title">Your BMI is:</string>
 </resources>

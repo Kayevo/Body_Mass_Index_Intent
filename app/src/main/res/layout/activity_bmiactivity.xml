@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".presentation.result.BMIActivity">
 
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/BMITextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="@string/bmi_result_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bmiResult"
+        style="@style/BMITextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.045"
+        tools:text="result" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

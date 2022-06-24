@@ -17,4 +17,8 @@
     <style name="FormTextStyle" parent="Theme.BodyMassIndexIntent">
         <item name="android:textSize">30dp</item>
     </style>
+
+    <style name="BMITextStyle" parent="Theme.BodyMassIndexIntent">
+        <item name="android:textSize">50dp</item>
+    </style>
 </resources>

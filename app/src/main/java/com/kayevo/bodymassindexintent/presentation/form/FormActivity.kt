@@ -17,8 +17,9 @@ class FormActivity : AppCompatActivity() {
 
         viewForm.generateBMI.setOnClickListener{
             Intent(this, BMIActivity::class.java).also {
-                it.putExtra("EXTRA_WEIGHT", viewForm.weight.text.toString())
-                it.putExtra("EXTRA_HEIGHT", viewForm.height.text.toString())
+                it.putExtra("EXTRA_WEIGHT", viewForm.weight.text.toString().toDouble())
+                it.putExtra("EXTRA_HEIGHT", viewForm.height.text.toString().toDouble())
+                startActivity(it)
             }
         }
     }
