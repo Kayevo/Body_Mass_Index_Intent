@@ -18,6 +18,10 @@ class BMIActivity : AppCompatActivity() {
 
         var bmi = (weight / (height * height))
 
-        viewBMI.bmiResult.text = bmi.toString()
+        viewBMI.bmiResult.text = bmi.shorten(2).toString()
+    }
+
+    fun Double.shorten(decimals: Int): Double {
+        return String.format("%.$decimals" + "f", this).replace(',', '.').toDouble()
     }
 }
